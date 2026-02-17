@@ -1,0 +1,15 @@
+# OlympusGCP-Data Workspace DNA (jeBNF-MPH)
+workspace_name = "OlympusGCP-Data"
+
+  Item 0 .md "README.md"
+  Domain "60000-Information-Storage" {
+    Domain "Emulators" {
+      Item 1 .yaml "podman-compose.yaml"
+      Item 2 .json "firebase.json"
+    }
+  }
+  Domain "20000-Context-Bridges" {
+    Domain "MCP-Data-Bridge" {
+      Item 3 .go "main.go"
+    }
+  }
