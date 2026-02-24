@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package data.v1;
 
-option go_package = "OlympusGCP-Data/40000-Communication-Contracts/430-Protocol-Definitions/000-gen/data/v1;datav1";
+option go_package = "OlympusGCP-Data/gen/v1/data;datav1";
 
 service DataService {
   rpc Upsert (UpsertRequest) returns (UpsertResponse);

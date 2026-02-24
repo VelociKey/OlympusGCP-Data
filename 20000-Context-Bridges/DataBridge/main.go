@@ -8,8 +8,8 @@ import (
 	"connectrpc.com/connect"
 	"mcp-go/mcp"
 
-	"OlympusGCP-Data/40000-Communication-Contracts/430-Protocol-Definitions/000-gen/data/v1/datav1connect"
-	datav1 "OlympusGCP-Data/40000-Communication-Contracts/430-Protocol-Definitions/000-gen/data/v1"
+	"OlympusGCP-Data/gen/v1/data/datav1connect"
+	datav1 "OlympusGCP-Data/gen/v1/data"
 	"Olympus2/90000-Enablement-Labs/P0000-pkg/000-mcp-bridge"
 )
 

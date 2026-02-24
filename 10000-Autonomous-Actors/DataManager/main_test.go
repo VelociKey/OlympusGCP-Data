@@ -4,13 +4,14 @@ import (
 	"context"
 	"testing"
 
-	datav1 "OlympusGCP-Data/40000-Communication-Contracts/430-Protocol-Definitions/000-gen/data/v1"
+	datav1 "OlympusGCP-Data/gen/v1/data"
+	"OlympusGCP-Data/10000-Autonomous-Actors/10700-Processing-Engines/10710-Reasoning-Inference/inference"
 	"connectrpc.com/connect"
 )
 
 func TestDataServer(t *testing.T) {
 	tempDir := t.TempDir()
-	server := &DataServer{baseDir: tempDir}
+	server := inference.NewDataServer(tempDir)
 	ctx := context.Background()
 
 	// Test Upsert
