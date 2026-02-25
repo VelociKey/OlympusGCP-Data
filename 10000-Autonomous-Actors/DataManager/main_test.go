@@ -12,6 +12,7 @@ import (
 func TestDataServer(t *testing.T) {
 	tempDir := t.TempDir()
 	server := inference.NewDataServer(tempDir)
+	defer server.Close()
 	ctx := context.Background()
 
 	// Test Upsert
