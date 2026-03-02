@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"olympus.fleet/ext/connectrpc/connect"
+	"connectrpc.com/connect"
 	"mcp-go/mcp"
 
 	"OlympusGCP-Data/gen/v1/data/datav1connect"

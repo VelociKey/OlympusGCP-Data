@@ -6,7 +6,7 @@ package datav1connect
 
 import (
 	data "OlympusGCP-Data/gen/v1/data"
-	connect "olympus.fleet/ext/connectrpc/connect"
+	connect "connectrpc.com/connect"
 	context "context"
 	errors "errors"
 	http "net/http"

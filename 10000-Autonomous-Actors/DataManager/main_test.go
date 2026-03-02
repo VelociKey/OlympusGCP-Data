@@ -6,7 +6,7 @@ import (
 
 	datav1 "OlympusGCP-Data/gen/v1/data"
 	"OlympusGCP-Data/10000-Autonomous-Actors/10700-Processing-Engines/10710-Reasoning-Inference/inference"
-	"olympus.fleet/ext/connectrpc/connect"
+	"connectrpc.com/connect"
 )
 
 func TestDataServer(t *testing.T) {
