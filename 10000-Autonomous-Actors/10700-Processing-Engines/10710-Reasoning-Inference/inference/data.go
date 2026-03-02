@@ -11,7 +11,7 @@ import (
 	"strings"
 
 	datav1 "OlympusGCP-Data/gen/v1/data"
-	"connectrpc.com/connect"
+	"olympus.fleet/ext/connectrpc/connect"
 	"go.etcd.io/bbolt"
 )
 

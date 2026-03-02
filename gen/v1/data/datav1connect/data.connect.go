@@ -6,7 +6,7 @@ package datav1connect
 
 import (
 	data "OlympusGCP-Data/gen/v1/data"
-	connect "connectrpc.com/connect"
+	connect "olympus.fleet/ext/connectrpc/connect"
 	context "context"
 	errors "errors"
 	http "net/http"
@@ -29,7 +29,7 @@ const (
 // exposed at runtime as Spec.Procedure and as the final two segments of the HTTP route.
 //
 // Note that these are different from the fully-qualified method names used by
-// google.golang.org/protobuf/reflect/protoreflect. To convert from these constants to
+// google.protobuf/reflect/protoreflect. To convert from these constants to
 // reflection-formatted method names, remove the leading slash and convert the remaining slash to a
 // period.
 const (

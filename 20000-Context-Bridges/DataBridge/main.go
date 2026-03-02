@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"net/http"
 
-	"connectrpc.com/connect"
+	"olympus.fleet/ext/connectrpc/connect"
 	"mcp-go/mcp"
 
 	"OlympusGCP-Data/gen/v1/data/datav1connect"
 	datav1 "OlympusGCP-Data/gen/v1/data"
-	"Olympus2/90000-Enablement-Labs/P0000-pkg/000-mcp-bridge"
+	"olympus.fleet/00SDLC/Olympus2/90000-Enablement-Labs/P0000-pkg/000-mcp-bridge"
 )
 
 func main() {

@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	datav1 "OlympusGCP-Data/gen/v1/data"
-	"connectrpc.com/connect"
+	"olympus.fleet/ext/connectrpc/connect"
 )
 
 func TestDataServer_CoverageExpansion(t *testing.T) {
