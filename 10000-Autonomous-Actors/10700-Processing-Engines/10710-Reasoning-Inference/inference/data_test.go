@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	datav1 "OlympusGCP-Data/gen/v1/data"
+	datav1 "olympus.fleet/00SDLC/OlympusGCP-Data/gen/v1/data"
 	"connectrpc.com/connect"
 )
 
