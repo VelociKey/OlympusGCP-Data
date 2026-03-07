@@ -363,11 +363,7 @@ const file_v1_data_data_proto_rawDesc = "" +
 	"\vDataService\x129\n" +
 	"\x06Upsert\x12\x16.data.v1.UpsertRequest\x1a\x17.data.v1.UpsertResponse\x12?\n" +
 	"\bWriteRow\x12\x18.data.v1.WriteRowRequest\x1a\x19.data.v1.WriteRowResponse\x126\n" +
-<<<<<<< HEAD:40000-Communication-Contracts/40400-Protocol-Synthetics/connect-rpc/gen/v1/data/data.pb.go
 	"\x05Query\x12\x15.data.v1.QueryRequest\x1a\x16.data.v1.QueryResponseB$Z\"olympus.fleet/00SDLC/OlympusGCP-Data/40000-Communication-Contracts/40400-Protocol-Synthetics/connect-rpc/gen/v1/data;datav1b\x06proto3"
-=======
-	"\x05Query\x12\x15.data.v1.QueryRequest\x1a\x16.data.v1.QueryResponseB$Z\"OlympusGCP-Data/gen/v1/data;datav1b\x06proto3"
->>>>>>> origin/development:gen/v1/data/data.pb.go
 
 var (
 	file_v1_data_data_proto_rawDescOnce sync.Once

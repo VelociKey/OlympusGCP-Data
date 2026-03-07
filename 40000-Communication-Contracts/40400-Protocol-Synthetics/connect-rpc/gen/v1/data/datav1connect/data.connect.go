@@ -5,11 +5,7 @@
 package datav1connect
 
 import (
-<<<<<<< HEAD:40000-Communication-Contracts/40400-Protocol-Synthetics/connect-rpc/gen/v1/data/datav1connect/data.connect.go
 	data "olympus.fleet/00SDLC/OlympusGCP-Data/40000-Communication-Contracts/40400-Protocol-Synthetics/connect-rpc/gen/v1/data"
-=======
-	data "OlympusGCP-Data/gen/v1/data"
->>>>>>> origin/development:gen/v1/data/datav1connect/data.connect.go
 	connect "connectrpc.com/connect"
 	context "context"
 	errors "errors"
@@ -33,11 +29,7 @@ const (
 // exposed at runtime as Spec.Procedure and as the final two segments of the HTTP route.
 //
 // Note that these are different from the fully-qualified method names used by
-<<<<<<< HEAD:40000-Communication-Contracts/40400-Protocol-Synthetics/connect-rpc/gen/v1/data/datav1connect/data.connect.go
 // OlympusForge/90000-Enablement-Labs/000-Tools/000-external/protobuf/reflect/protoreflect. To convert from these constants to
-=======
-// google.protobuf/reflect/protoreflect. To convert from these constants to
->>>>>>> origin/development:gen/v1/data/datav1connect/data.connect.go
 // reflection-formatted method names, remove the leading slash and convert the remaining slash to a
 // period.
 const (

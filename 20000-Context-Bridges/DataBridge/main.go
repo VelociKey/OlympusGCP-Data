@@ -8,15 +8,9 @@ import (
 	"connectrpc.com/connect"
 	"github.com/mark3labs/mcp-go/mcp"
 
-<<<<<<< HEAD
 	"olympus.fleet/00SDLC/OlympusGCP-Data/40000-Communication-Contracts/40400-Protocol-Synthetics/connect-rpc/gen/v1/data/datav1connect"
 	datav1 "olympus.fleet/00SDLC/OlympusGCP-Data/40000-Communication-Contracts/40400-Protocol-Synthetics/connect-rpc/gen/v1/data"
 	"olympus.fleet/00SDLC/Olympus2/90000-Enablement-Labs/90200-Logic-Libraries/140-MCPBridge"
-=======
-	"OlympusGCP-Data/gen/v1/data/datav1connect"
-	datav1 "OlympusGCP-Data/gen/v1/data"
-	"olympus.fleet/00SDLC/Olympus2/90000-Enablement-Labs/P0000-pkg/000-mcp-bridge"
->>>>>>> origin/development
 )
 
 func main() {
