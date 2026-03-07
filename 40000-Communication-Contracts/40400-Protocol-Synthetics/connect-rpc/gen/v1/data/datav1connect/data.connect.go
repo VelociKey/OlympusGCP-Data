@@ -6,7 +6,7 @@ package datav1connect
 
 import (
 <<<<<<< HEAD:40000-Communication-Contracts/40400-Protocol-Synthetics/connect-rpc/gen/v1/data/datav1connect/data.connect.go
-	data "olympus.fleet/00SDLC/OlympusGCP-Data/gen/v1/data"
+	data "olympus.fleet/00SDLC/OlympusGCP-Data/40000-Communication-Contracts/40400-Protocol-Synthetics/connect-rpc/gen/v1/data"
 =======
 	data "OlympusGCP-Data/gen/v1/data"
 >>>>>>> origin/development:gen/v1/data/datav1connect/data.connect.go

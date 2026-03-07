@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	datav1 "olympus.fleet/00SDLC/OlympusGCP-Data/gen/v1/data"
+	datav1 "olympus.fleet/00SDLC/OlympusGCP-Data/40000-Communication-Contracts/40400-Protocol-Synthetics/connect-rpc/gen/v1/data"
 	"olympus.fleet/00SDLC/OlympusGCP-Data/10000-Autonomous-Actors/10700-Processing-Engines/10710-Reasoning-Inference/inference"
 	"connectrpc.com/connect"
 )
