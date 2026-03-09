@@ -1,0 +1,13 @@
+# Olympus Fleet Provisioning Configuration (jeBNF-lite)
+# This file defines the "Podman Mount System" requirements for the workstation/podman targets.
+
+mounts {
+    DataStore: source="00SDLC/OlympusGCP-Data/60000-Information-Storage/DataStore", target="/data", type="ReadWrite"
+}
+
+emulators {
+    Firestore: host="localhost:8080"
+    Spanner: host="localhost:9010"
+    Bigtable: host="localhost:9090"
+    PubSub: host="localhost:8085"
+}

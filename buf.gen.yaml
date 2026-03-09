@@ -1,8 +1,8 @@
 version: v2
 plugins:
   - local: protoc-gen-go
-    out: gen
+    out: 40000-Communication-Contracts/40400-Protocol-Synthetics/connect-rpc/gen
     opt: paths=source_relative
   - local: protoc-gen-connect-go
-    out: gen
+    out: 40000-Communication-Contracts/40400-Protocol-Synthetics/connect-rpc/gen
     opt: paths=source_relative
